@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:e_commerce_flutter/src/model/product.dart';
-import 'package:e_commerce_flutter/src/customerview/view/animation/open_container_wrapper.dart';
-import 'package:get/get.dart';
 
-import '../customerview/controller/product_controller.dart';
+import 'package:get/get.dart';
+import 'package:smartstock_pro/adminui/src/model/product.dart';
+import 'package:smartstock_pro/customerui/controller/product_controller.dart';
+import 'package:smartstock_pro/customerui/view/animation/open_container_wrapper.dart';
+
+
 
 class ProductGridView extends StatelessWidget {
   ProductGridView({

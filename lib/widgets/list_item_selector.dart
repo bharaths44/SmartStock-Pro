@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:get/get.dart';
+import 'package:smartstock_pro/customerui/controller/product_controller.dart';
+import 'package:smartstock_pro/customerui/model/product_category.dart';
+
+
 
 
 class ListItemSelector extends StatefulWidget {
