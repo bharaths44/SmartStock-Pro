@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/src/view/screens/admin_home_page/dashboard.dart';
-import 'package:ssp_admin_panel/src/view/screens/update_product/update_product_controller.dart';
+import 'package:smartstock_pro/adminui/core/appdata.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/dashboard.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/update_product/update_product_controller.dart';
+import 'package:smartstock_pro/widgets/customappbar.dart';
 
-import '../../../../core/appdata.dart';
-import '../../../../widgets/customappbar.dart';
 
 class UpdateProductScreen extends StatelessWidget {
   final UpdateProductController controller =

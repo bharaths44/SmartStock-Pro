@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ssp_admin_panel/src/view/screens/all_product_screen/all_product_controller.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/all_product_screen/all_product_controller.dart';
 
 import '../../../model/product.dart';
 

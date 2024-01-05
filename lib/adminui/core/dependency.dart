@@ -1,8 +1,9 @@
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/src/view/screens/admin_home_page/home_page_controller.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/home_page_controller.dart';
 
-import '../src/auth/login/login_controller.dart';
-import '../src/auth/register/register_controller.dart';
+
+import '../../auth/login/login_controller.dart';
+import '../../auth/register/register_controller.dart';
 import '../src/view/screens/all_product_screen/all_product_controller.dart';
 
 class AllProductsControllerBinding extends Bindings {

@@ -2,10 +2,11 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/src/view/screens/admin_home_page/dashboard.dart';
-import 'package:ssp_admin_panel/src/view/screens/orders_screen/order_screen_controller.dart';
 import 'package:intl/intl.dart';
-import 'package:ssp_admin_panel/widgets/text.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/dashboard.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/orders_screen/order_screen_controller.dart';
+import 'package:smartstock_pro/widgets/text.dart';
+
 
 class OrderDetailScreen extends StatelessWidget {
   final OrderScreenController orderController =

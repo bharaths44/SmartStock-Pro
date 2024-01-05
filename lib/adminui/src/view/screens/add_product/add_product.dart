@@ -1,7 +1,9 @@
-import 'package:ssp_admin_panel/src/view/screens/add_product/add_product_controller.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/widgets/customappbar.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/add_product/add_product_controller.dart';
+import 'package:smartstock_pro/widgets/customappbar.dart';
+
 
 import '../../../../core/appdata.dart';
 

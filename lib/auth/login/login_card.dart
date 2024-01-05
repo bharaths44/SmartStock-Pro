@@ -4,9 +4,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/src/auth/login/login_controller.dart';
+import 'package:smartstock_pro/auth/login/login_controller.dart';
+import 'package:smartstock_pro/widgets/inputfield.dart';
 
-import '../../../widgets/inputfield.dart';
 
 class LoginCard extends StatelessWidget {
   LoginCard({super.key});

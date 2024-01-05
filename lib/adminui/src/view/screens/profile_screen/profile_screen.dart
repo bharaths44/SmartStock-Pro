@@ -4,10 +4,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/widgets/customappbar.dart';
-
-import '../../../../widgets/gridcard.dart';
-import '../../../auth/login/login_controller.dart';
+import 'package:smartstock_pro/widgets/customappbar.dart';
+import 'package:smartstock_pro/widgets/gridcard.dart';
+import '../../../../../auth/login/login_controller.dart';
 
 final LoginController loginController = Get.put(LoginController());
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../widgets/customappbar.dart';
+import 'package:smartstock_pro/widgets/customappbar.dart';
 import 'order_screen_controller.dart';
 import 'order_detail_screen.dart';
 

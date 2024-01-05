@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:smartstock_pro/widgets/inputfield.dart';
 
-import '../../../widgets/inputfield.dart';
+
 import '../login/login_controller.dart';
 
 final LoginController controller = Get.put(LoginController());

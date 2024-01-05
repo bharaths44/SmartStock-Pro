@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ssp_admin_panel/src/view/screens/all_product_screen/all_product_controller.dart';
-import 'package:ssp_admin_panel/widgets/customappbar.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/all_product_screen/all_product_controller.dart';
+import 'package:smartstock_pro/widgets/customappbar.dart';
 import '../../../model/product.dart';
 
 class AllProductScreen extends StatelessWidget {

@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'package:ssp_admin_panel/src/view/screens/admin_home_page/home_page.dart';
-import 'package:ssp_admin_panel/src/view/screens/admin_home_page/home_page_controller.dart';
-import 'package:ssp_admin_panel/src/view/screens/all_product_screen/all_products.dart';
-
-
+import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/home_page.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/home_page_controller.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/all_product_screen/all_products.dart';
 import '../orders_screen/order_screen.dart';
 import '../profile_screen/profile_screen.dart';
 

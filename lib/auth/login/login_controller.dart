@@ -2,8 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/home_page_controller.dart';
 
-import 'package:ssp_admin_panel/src/view/screens/admin_home_page/home_page_controller.dart';
+
 
 class LoginController extends GetxController {
   final AdminPageController dashboardController =

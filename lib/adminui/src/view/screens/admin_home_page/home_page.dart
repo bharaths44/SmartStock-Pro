@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:smartstock_pro/widgets/customappbar.dart';
 
-import '../../../../widgets/customappbar.dart';
+
 import 'home_page_controller.dart';
 
 class HomePage extends StatelessWidget {
