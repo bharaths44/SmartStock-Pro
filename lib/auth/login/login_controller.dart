@@ -3,12 +3,15 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/home_page_controller.dart';
-
-
+import 'package:smartstock_pro/customerui/controller/product_controller.dart';
+import 'package:smartstock_pro/customerui/view/screen/home_screen/home_controller.dart';
 
 class LoginController extends GetxController {
-  final AdminPageController dashboardController =
+  final ProductController controller = Get.find<ProductController>();
+  final AdminPageController admindashboardController =
       Get.find<AdminPageController>();
+  final DashBoardController dashboardController =
+      Get.find<DashBoardController>();
   final email = TextEditingController();
   final password = TextEditingController();
 
@@ -30,18 +33,13 @@ class LoginController extends GetxController {
           .collection('users')
           .doc(userCredential.user!.uid)
           .get();
-
+      executeOnInitLogic();
       // Check if the user is an admin
       if ((userDoc.data() as Map<String, dynamic>)['isAdmin'] == true) {
         // User is an admin, proceed with login
-        Get.offAllNamed('/home/');
+        Get.offAllNamed('/adminhome/');
       } else {
-        // User is not an admin, show error message
-        Get.snackbar(
-          'Error',
-          'You are not an admin.',
-          backgroundColor: Colors.red,
-        );
+        Get.offAllNamed('/customerhome/');
       }
     } catch (e) {
       Get.snackbar(
@@ -53,9 +51,10 @@ class LoginController extends GetxController {
   }
 
   void logout() async {
+    dashboardController.initTabIndex();
+    admindashboardController.initTabIndex();
     await FirebaseAuth.instance.signOut();
     clearControllers();
-    dashboardController.initTabIndex();
     Get.offAllNamed('/login/');
   }
 
@@ -80,7 +79,8 @@ class LoginController extends GetxController {
   }
 
   void executeOnInitLogic() {
-    // controller.fetchProducts();
-    // controller.fetchUsername();
+    controller.allProducts.clear();
+    controller.fetchProducts();
+    controller.fetchUsername();
   }
 }

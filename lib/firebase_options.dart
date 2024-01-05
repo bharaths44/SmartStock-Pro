@@ -53,11 +53,12 @@ class DefaultFirebaseOptions {
     projectId: 'crud-test-4747',
     authDomain: 'crud-test-4747.firebaseapp.com',
     storageBucket: 'crud-test-4747.appspot.com',
+    measurementId: 'G-R1HXGBJKM6',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAu9bs0ywW0a9mRNDuNYWaKZDS_jhuR6_E',
-    appId: '1:873376294563:android:3c8197419ed1ffe1954116',
+    appId: '1:873376294563:android:a7ddcf8be88cd93f954116',
     messagingSenderId: '873376294563',
     projectId: 'crud-test-4747',
     storageBucket: 'crud-test-4747.appspot.com',
@@ -65,11 +66,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyClhuJK4qrvSscV3a4msYvxG3xVE8gV9c0',
-    appId: '1:873376294563:ios:0b77ccc854740357954116',
+    appId: '1:873376294563:ios:bf6075bdf65cd1c4954116',
     messagingSenderId: '873376294563',
     projectId: 'crud-test-4747',
     storageBucket: 'crud-test-4747.appspot.com',
-    iosClientId: '873376294563-c34eq8qh1apnc6984004eibr7rn07qif.apps.googleusercontent.com',
-    iosBundleId: 'com.sinasys.eCommerceFlutter',
+    iosClientId: '873376294563-hk6ivahs8hnmgi6cgr355thlrpjkp6jh.apps.googleusercontent.com',
+    iosBundleId: 'com.example.smartstockPro',
   );
 }

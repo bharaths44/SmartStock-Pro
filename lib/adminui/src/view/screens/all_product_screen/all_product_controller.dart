@@ -41,7 +41,7 @@ class AllProductsController extends GetxController {
     try {
       await db.collection('product').doc(product.docId).delete();
       products.remove(product);
-      Get.toNamed('/home/');
+      Get.toNamed('/adminhome/');
       update();
     } catch (e) {
       Get.snackbar(

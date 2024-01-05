@@ -4,9 +4,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smartstock_pro/adminui/src/view/screens/orders_screen/order_screen.dart';
-import 'package:smartstock_pro/adminui/src/view/screens/profile_screen/profile_screen.dart';
+
 import 'package:smartstock_pro/auth/login/login_controller.dart';
+import 'package:smartstock_pro/customerui/controller/firebase_auth.dart';
+import 'package:smartstock_pro/customerui/view/screen/profile_screen/orders.dart';
 import 'package:smartstock_pro/widgets/gridcard.dart';
 
 final LoginController loginController = Get.put(LoginController());

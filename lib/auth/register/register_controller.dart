@@ -9,7 +9,7 @@ class RegisterController extends GetxController {
   final name = TextEditingController();
   final address = TextEditingController();
   final phoneNumber = TextEditingController();
-  final isAdmin = true;
+  final isAdmin = false;
   final favorites = <String>[].obs;
   final cart = <String>[].obs;
 

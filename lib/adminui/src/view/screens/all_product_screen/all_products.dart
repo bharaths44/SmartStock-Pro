@@ -26,7 +26,7 @@ class AllProductScreen extends StatelessWidget {
             Product product = allProductsController.products[index];
             return GestureDetector(
               onTap: () {
-                Get.toNamed('/productDetailScreen',
+                Get.toNamed('/adminproductDetailScreen/',
                     arguments: allProductsController.products[index]);
               },
               child: Card(

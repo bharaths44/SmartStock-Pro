@@ -7,8 +7,8 @@ import '../update_product/update_product.dart';
 
 final AllProductsController controller = Get.find<AllProductsController>();
 
-class ProductDetailScreen extends StatelessWidget {
-  ProductDetailScreen({Key? key}) : super(key: key);
+class AdminProductDetailScreen extends StatelessWidget {
+  AdminProductDetailScreen({Key? key}) : super(key: key);
 
   final Product product = Get.arguments;
 

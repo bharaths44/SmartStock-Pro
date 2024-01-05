@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>873376294563-hk6ivahs8hnmgi6cgr355thlrpjkp6jh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.873376294563-hk6ivahs8hnmgi6cgr355thlrpjkp6jh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyClhuJK4qrvSscV3a4msYvxG3xVE8gV9c0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>873376294563</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.smartstockPro</string>
+	<key>PROJECT_ID</key>
+	<string>crud-test-4747</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crud-test-4747.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:873376294563:ios:bf6075bdf65cd1c4954116</string>
+</dict>
+</plist>
