@@ -41,12 +41,34 @@ class LoginController extends GetxController {
       } else {
         Get.offAllNamed('/customerhome/');
       }
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'user-not-found') {
+        Get.snackbar('Error', 'No user found for that email.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'wrong-password') {
+        Get.snackbar('Error', 'Wrong password provided for that user.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'user-disabled') {
+        Get.snackbar('Error', 'This user has been disabled.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'too-many-requests') {
+        Get.snackbar('Error', 'Too many requests. Try again later.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'operation-not-allowed') {
+        Get.snackbar('Error', 'Operation not allowed.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'invalid-email') {
+        Get.snackbar('Error', 'The email address is not valid.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'account-exists-with-different-credential') {
+        Get.snackbar('Error', 'The email is already in use by another account.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'credential-already-in-use') {
+        Get.snackbar('Error', 'The account already exists.',
+            backgroundColor: Colors.red);
+      }
     } catch (e) {
-      Get.snackbar(
-        'Error',
-        e.toString(),
-        backgroundColor: Colors.red,
-      );
+      Get.snackbar('Error', e.toString(), backgroundColor: Colors.red);
     }
   }
 
