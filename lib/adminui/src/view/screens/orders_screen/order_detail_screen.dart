@@ -7,7 +7,6 @@ import 'package:smartstock_pro/adminui/src/view/screens/admin_home_page/dashboar
 import 'package:smartstock_pro/adminui/src/view/screens/orders_screen/order_screen_controller.dart';
 import 'package:smartstock_pro/widgets/text.dart';
 
-
 class OrderDetailScreen extends StatelessWidget {
   final OrderScreenController orderController =
       Get.find<OrderScreenController>();
@@ -21,6 +20,7 @@ class OrderDetailScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
