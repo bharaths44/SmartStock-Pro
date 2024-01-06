@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smartstock_pro/widgets/customappbar.dart';
 
-
 import 'home_page_controller.dart';
 
 class HomePage extends StatelessWidget {
@@ -49,35 +48,40 @@ class HomePage extends StatelessWidget {
   }
 
   Widget statsCard(String title, dynamic value, IconData icon) {
-    return Card(
-      elevation: 0,
-      margin: const EdgeInsets.all(16), // Add margins for visual breathing room
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12), // Subtle rounded corners
-        side: BorderSide(
-          color: Colors.grey.shade300, // Softer border for definition
-          width: 1,
+    return AspectRatio(
+      aspectRatio: 1,
+      child: Card(
+        elevation: 0,
+        margin:
+            const EdgeInsets.all(16), // Add margins for visual breathing room
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12), // Subtle rounded corners
+          side: BorderSide(
+            color: Colors.grey.shade300, // Softer border for definition
+            width: 1,
+          ),
         ),
-      ),
 
-      color: Colors.white,
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Icon(icon,
-                size: 40, color: Colors.deepPurple), // Vibrant icon color
-            Obx(() => Text(
-                  '$title: ${value.value}',
-                  style: const TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black, // Black text for clarity
-                  ),
-                )),
-          ],
+        color: Colors.white,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Icon(icon,
+                  size: Get.size.width * 0.1,
+                  color: Colors.deepPurple), // Vibrant icon color
+              Obx(() => Text(
+                    '$title: ${value.value}',
+                    style: TextStyle(
+                      fontSize: Get.size.width * 0.04,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black, // Black text for clarity
+                    ),
+                  )),
+            ],
+          ),
         ),
       ),
     );
@@ -86,7 +90,8 @@ class HomePage extends StatelessWidget {
 
 Widget bigTitleCard(String title, dynamic value, IconData icon) {
   return Card(
-    margin: const EdgeInsets.all(16), // Add margins for visual breathing room
+    margin: EdgeInsets.all(
+        Get.size.width * 0.02), // Add margins for visual breathing room
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(12), // Subtle rounded corners
       side: BorderSide(
@@ -99,17 +104,19 @@ Widget bigTitleCard(String title, dynamic value, IconData icon) {
     child: SizedBox(
       height: Get.size.height / 4,
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(Get.size.width * 0.02),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Icon(icon, size: 50, color: Colors.deepPurple),
+              Icon(icon,
+                  size: Get.size.width * 0.125, color: Colors.deepPurple),
               Obx(() => Text(
                     '$title: \n${value.value}',
-                    style: const TextStyle(
-                        fontSize: 24, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        fontSize: Get.size.width * 0.06,
+                        fontWeight: FontWeight.bold),
                   )),
             ],
           ),

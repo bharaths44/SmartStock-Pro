@@ -1,0 +1,203 @@
+Date : 2024-01-06 21:17:13
+Directory : /Users/bharaths/StudioProjects/SmartStock Pro
+Total : 102 files,  5445 codes, 291 comments, 633 blanks, all 6369 lines
+
+Languages
++-----------------+------------+------------+------------+------------+------------+
+| language        | files      | code       | comment    | blank      | total      |
++-----------------+------------+------------+------------+------------+------------+
+| Dart            |         62 |      3,626 |         59 |        403 |      4,088 |
+| Project.pbxproj |          1 |        636 |         31 |         16 |        683 |
+| C++             |         11 |        452 |         94 |        144 |        690 |
+| JSON            |          5 |        377 |          0 |          3 |        380 |
+| XML             |         11 |        131 |         48 |         11 |        190 |
+| Groovy          |          3 |        102 |          5 |         22 |        129 |
+| YAML            |          2 |         43 |         36 |         12 |         91 |
+| HTML            |          1 |         38 |         16 |          6 |         60 |
+| Swift           |          2 |         19 |          2 |          6 |         27 |
+| Markdown        |          2 |         13 |          0 |          9 |         22 |
+| Properties      |          2 |          8 |          0 |          1 |          9 |
++-----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                         |        102 |      5,445 |        291 |        633 |      6,369 |
+| . (Files)                                                                                                                 |          3 |         53 |         36 |         19 |        108 |
+| android                                                                                                                   |         13 |        359 |         51 |         32 |        442 |
+| android (Files)                                                                                                           |          3 |         54 |          0 |         11 |         65 |
+| android/app                                                                                                               |          9 |        300 |         51 |         21 |        372 |
+| android/app (Files)                                                                                                       |          2 |        241 |          5 |         12 |        258 |
+| android/app/src                                                                                                           |          7 |         59 |         46 |          9 |        114 |
+| android/app/src/debug                                                                                                     |          1 |          3 |          4 |          1 |          8 |
+| android/app/src/main                                                                                                      |          5 |         53 |         38 |          7 |         98 |
+| android/app/src/main (Files)                                                                                              |          1 |         27 |          6 |          1 |         34 |
+| android/app/src/main/res                                                                                                  |          4 |         26 |         32 |          6 |         64 |
+| android/app/src/main/res/drawable                                                                                         |          1 |          4 |          7 |          2 |         13 |
+| android/app/src/main/res/drawable-v21                                                                                     |          1 |          4 |          7 |          2 |         13 |
+| android/app/src/main/res/values                                                                                           |          1 |          9 |          9 |          1 |         19 |
+| android/app/src/main/res/values-night                                                                                     |          1 |          9 |          9 |          1 |         19 |
+| android/app/src/profile                                                                                                   |          1 |          3 |          4 |          1 |          8 |
+| android/gradle                                                                                                            |          1 |          5 |          0 |          0 |          5 |
+| android/gradle/wrapper                                                                                                    |          1 |          5 |          0 |          0 |          5 |
+| assets                                                                                                                    |          2 |         11 |          0 |          0 |         11 |
+| assets/images                                                                                                             |          2 |         11 |          0 |          0 |         11 |
+| ios                                                                                                                       |         10 |        872 |         35 |         29 |        936 |
+| ios (Files)                                                                                                               |          1 |          7 |          0 |          0 |          7 |
+| ios/Runner                                                                                                                |          7 |        222 |          2 |          9 |        233 |
+| ios/Runner (Files)                                                                                                        |          2 |         13 |          0 |          3 |         16 |
+| ios/Runner.xcodeproj                                                                                                      |          1 |        636 |         31 |         16 |        683 |
+| ios/Runner/Assets.xcassets                                                                                                |          3 |        148 |          0 |          4 |        152 |
+| ios/Runner/Assets.xcassets/AppIcon.appiconset                                                                             |          1 |        122 |          0 |          1 |        123 |
+| ios/Runner/Assets.xcassets/LaunchImage.imageset                                                                           |          2 |         26 |          0 |          3 |         29 |
+| ios/Runner/Base.lproj                                                                                                     |          2 |         61 |          2 |          2 |         65 |
+| ios/RunnerTests                                                                                                           |          1 |          7 |          2 |          4 |         13 |
+| lib                                                                                                                       |         61 |      3,612 |         49 |        396 |      4,057 |
+| lib (Files)                                                                                                               |          2 |        112 |         12 |         10 |        134 |
+| lib/adminui                                                                                                               |         17 |      1,316 |          3 |        117 |      1,436 |
+| lib/adminui/core                                                                                                          |          2 |         58 |          0 |         12 |         70 |
+| lib/adminui/src                                                                                                           |         15 |      1,258 |          3 |        105 |      1,366 |
+| lib/adminui/src/model                                                                                                     |          1 |         49 |          0 |          4 |         53 |
+| lib/adminui/src/view                                                                                                      |         14 |      1,209 |          3 |        101 |      1,313 |
+| lib/adminui/src/view/screens                                                                                              |         14 |      1,209 |          3 |        101 |      1,313 |
+| lib/adminui/src/view/screens/add_product                                                                                  |          2 |        157 |          1 |         15 |        173 |
+| lib/adminui/src/view/screens/admin_home_page                                                                              |          3 |        273 |          0 |         26 |        299 |
+| lib/adminui/src/view/screens/all_product_screen                                                                           |          3 |        268 |          0 |         18 |        286 |
+| lib/adminui/src/view/screens/orders_screen                                                                                |          3 |        267 |          0 |         23 |        290 |
+| lib/adminui/src/view/screens/profile_screen                                                                               |          1 |         80 |          1 |          6 |         87 |
+| lib/adminui/src/view/screens/update_product                                                                               |          2 |        164 |          1 |         13 |        178 |
+| lib/auth                                                                                                                  |          9 |        505 |          6 |         54 |        565 |
+| lib/auth/forgot_password                                                                                                  |          1 |         41 |          0 |          7 |         48 |
+| lib/auth/login                                                                                                            |          4 |        248 |          4 |         22 |        274 |
+| lib/auth/register                                                                                                         |          3 |        150 |          0 |         19 |        169 |
+| lib/auth/verify_email                                                                                                     |          1 |         66 |          2 |          6 |         74 |
+| lib/customerui                                                                                                            |         25 |      1,324 |         27 |        171 |      1,522 |
+| lib/customerui/controller                                                                                                 |          3 |        289 |         10 |         59 |        358 |
+| lib/customerui/core                                                                                                       |          6 |        184 |          0 |         33 |        217 |
+| lib/customerui/model                                                                                                      |          3 |         66 |         14 |         11 |         91 |
+| lib/customerui/view                                                                                                       |         13 |        785 |          3 |         68 |        856 |
+| lib/customerui/view/animation                                                                                             |          2 |         56 |          0 |          8 |         64 |
+| lib/customerui/view/screen                                                                                                |         11 |        729 |          3 |         60 |        792 |
+| lib/customerui/view/screen/cart_screen                                                                                    |          1 |        185 |          0 |         10 |        195 |
+| lib/customerui/view/screen/favorite_screen                                                                                |          1 |         33 |          0 |          2 |         35 |
+| lib/customerui/view/screen/home_screen                                                                                    |          3 |        148 |          2 |         16 |        166 |
+| lib/customerui/view/screen/payment_screen                                                                                 |          2 |         73 |          0 |         11 |         84 |
+| lib/customerui/view/screen/product_detail                                                                                 |          1 |        119 |          0 |          7 |        126 |
+| lib/customerui/view/screen/profile_screen                                                                                 |          3 |        171 |          1 |         14 |        186 |
+| lib/widgets                                                                                                               |          8 |        355 |          1 |         44 |        400 |
+| test                                                                                                                      |          1 |         14 |         10 |          7 |         31 |
+| web                                                                                                                       |          2 |         73 |         16 |          7 |         96 |
+| windows                                                                                                                   |         10 |        451 |         94 |        143 |        688 |
+| windows/flutter                                                                                                           |          2 |         23 |          9 |         11 |         43 |
+| windows/runner                                                                                                            |          8 |        428 |         85 |        132 |        645 |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| filename                                                                                                                  | language        | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| /Users/bharaths/StudioProjects/SmartStock Pro/README.md                                                                   | Markdown        |         10 |          0 |          7 |         17 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/analysis_options.yaml                                                       | YAML            |          3 |         22 |          4 |         29 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/build.gradle                                                    | Groovy          |         51 |          5 |         12 |         68 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/google-services.json                                            | JSON            |        190 |          0 |          0 |        190 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/debug/AndroidManifest.xml                                   | XML             |          3 |          4 |          1 |          8 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/main/AndroidManifest.xml                                    | XML             |         27 |          6 |          1 |         34 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/main/res/drawable-v21/launch_background.xml                 | XML             |          4 |          7 |          2 |         13 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/main/res/drawable/launch_background.xml                     | XML             |          4 |          7 |          2 |         13 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/main/res/values-night/styles.xml                            | XML             |          9 |          9 |          1 |         19 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/main/res/values/styles.xml                                  | XML             |          9 |          9 |          1 |         19 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/app/src/profile/AndroidManifest.xml                                 | XML             |          3 |          4 |          1 |          8 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/build.gradle                                                        | Groovy          |         27 |          0 |          4 |         31 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/gradle.properties                                                   | Properties      |          3 |          0 |          1 |          4 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/gradle/wrapper/gradle-wrapper.properties                            | Properties      |          5 |          0 |          0 |          5 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/android/settings.gradle                                                     | Groovy          |         24 |          0 |          6 |         30 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/assets/images/bg_image.svg                                                  | XML             |          1 |          0 |          0 |          1 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/assets/images/logo_icon.svg                                                 | XML             |         10 |          0 |          0 |         10 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner.xcodeproj/project.pbxproj                                        | Project.pbxproj |        636 |         31 |         16 |        683 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/AppDelegate.swift                                                | Swift           |         12 |          0 |          2 |         14 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json                 | JSON            |        122 |          0 |          1 |        123 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json               | JSON            |         23 |          0 |          1 |         24 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md                   | Markdown        |          3 |          0 |          2 |          5 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/Base.lproj/LaunchScreen.storyboard                               | XML             |         36 |          1 |          1 |         38 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/Base.lproj/Main.storyboard                                       | XML             |         25 |          1 |          1 |         27 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/Runner/Runner-Bridging-Header.h                                         | C++             |          1 |          0 |          1 |          2 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/RunnerTests/RunnerTests.swift                                           | Swift           |          7 |          2 |          4 |         13 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/ios/firebase_app_id_file.json                                               | JSON            |          7 |          0 |          0 |          7 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/core/appdata.dart                                               | Dart            |          4 |          0 |          1 |          5 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/core/dependency.dart                                            | Dart            |         54 |          0 |         11 |         65 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/model/product.dart                                          | Dart            |         49 |          0 |          4 |         53 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/add_product/add_product.dart                   | Dart            |         80 |          0 |          7 |         87 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/add_product/add_product_controller.dart        | Dart            |         77 |          1 |          8 |         86 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/admin_home_page/dashboard.dart                 | Dart            |         56 |          0 |          4 |         60 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/admin_home_page/home_page.dart                 | Dart            |        120 |          0 |          8 |        128 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/admin_home_page/home_page_controller.dart      | Dart            |         97 |          0 |         14 |        111 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/all_product_screen/all_product_controller.dart | Dart            |         48 |          0 |          7 |         55 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/all_product_screen/all_products.dart           | Dart            |         78 |          0 |          4 |         82 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/all_product_screen/product_detail_screen.dart  | Dart            |        142 |          0 |          7 |        149 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/orders_screen/order_detail_screen.dart         | Dart            |        129 |          0 |          6 |        135 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/orders_screen/order_screen.dart                | Dart            |         58 |          0 |          4 |         62 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/orders_screen/order_screen_controller.dart     | Dart            |         80 |          0 |         13 |         93 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/profile_screen/profile_screen.dart             | Dart            |         80 |          1 |          6 |         87 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/update_product/update_product.dart             | Dart            |         84 |          0 |          5 |         89 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/adminui/src/view/screens/update_product/update_product_controller.dart  | Dart            |         80 |          1 |          8 |         89 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/forgot_password/forgot_password_screen.dart                        | Dart            |         41 |          0 |          7 |         48 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/login/bg_image.dart                                                | Dart            |         18 |          0 |          3 |         21 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/login/login_card.dart                                              | Dart            |        105 |          1 |          6 |        112 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/login/login_controller.dart                                        | Dart            |        102 |          3 |          8 |        113 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/login/login_screen.dart                                            | Dart            |         23 |          0 |          5 |         28 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/register/register_card.dart                                        | Dart            |         74 |          0 |          7 |         81 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/register/register_controller.dart                                  | Dart            |         52 |          0 |          7 |         59 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/register/register_screen.dart                                      | Dart            |         24 |          0 |          5 |         29 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/auth/verify_email/verify_email_view.dart                                | Dart            |         66 |          2 |          6 |         74 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/controller/firebase_auth.dart                                | Dart            |         12 |          0 |          2 |         14 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/controller/firebase_functions.dart                           | Dart            |        110 |          5 |         20 |        135 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/controller/product_controller.dart                           | Dart            |        167 |          5 |         37 |        209 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/core/app_color.dart                                          | Dart            |          8 |          0 |          4 |         12 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/core/app_data.dart                                           | Dart            |         44 |          0 |          7 |         51 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/core/app_theme.dart                                          | Dart            |         47 |          0 |          3 |         50 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/core/binding.dart                                            | Dart            |         24 |          0 |          4 |         28 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/core/dependency.dart                                         | Dart            |         37 |          0 |          9 |         46 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/core/extensions.dart                                         | Dart            |         24 |          0 |          6 |         30 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/model/cart_model.dart                                        | Dart            |         10 |          0 |          2 |         12 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/model/product.dart                                           | Dart            |         49 |          0 |          4 |         53 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/model/product_category.dart                                  | Dart            |          7 |         14 |          5 |         26 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/animation/animated_switcher_wrapper.dart                | Dart            |         23 |          0 |          4 |         27 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/animation/open_container_wrapper.dart                   | Dart            |         33 |          0 |          4 |         37 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/cart_screen/cart_screen.dart                     | Dart            |        185 |          0 |         10 |        195 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/favorite_screen/favorite_screen.dart             | Dart            |         33 |          0 |          2 |         35 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/home_screen/home_controller.dart                 | Dart            |         11 |          0 |          3 |         14 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/home_screen/home_screen.dart                     | Dart            |         56 |          1 |          6 |         63 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/home_screen/product_list_screen.dart             | Dart            |         81 |          1 |          7 |         89 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/payment_screen/env.dart                          | Dart            |          4 |          0 |          1 |          5 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/payment_screen/payment_screen.dart               | Dart            |         69 |          0 |         10 |         79 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/product_detail/product_detail_screen.dart        | Dart            |        119 |          0 |          7 |        126 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/profile_screen/order_controller.dart             | Dart            |          9 |          0 |          3 |         12 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/profile_screen/orders.dart                       | Dart            |         79 |          0 |          4 |         83 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/customerui/view/screen/profile_screen/profile_screen.dart               | Dart            |         83 |          1 |          7 |         91 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/firebase_options.dart                                                   | Dart            |         60 |         12 |          5 |         77 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/main.dart                                                               | Dart            |         52 |          0 |          5 |         57 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/alertbox.dart                                                   | Dart            |         24 |          0 |          6 |         30 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/customappbar.dart                                               | Dart            |         33 |          0 |          4 |         37 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/empty_cart.dart                                                 | Dart            |         18 |          0 |          3 |         21 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/gridcard.dart                                                   | Dart            |         23 |          0 |          3 |         26 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/inputfield.dart                                                 | Dart            |         41 |          0 |          3 |         44 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/list_item_selector.dart                                         | Dart            |         66 |          0 |         10 |         76 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/product_grid_view.dart                                          | Dart            |        120 |          1 |          8 |        129 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/lib/widgets/text.dart                                                       | Dart            |         30 |          0 |          7 |         37 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/pubspec.yaml                                                                | YAML            |         40 |         14 |          8 |         62 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/test/widget_test.dart                                                       | Dart            |         14 |         10 |          7 |         31 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/web/index.html                                                              | HTML            |         38 |         16 |          6 |         60 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/web/manifest.json                                                           | JSON            |         35 |          0 |          1 |         36 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/flutter/generated_plugin_registrant.cc                              | C++             |         18 |          4 |          5 |         27 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/flutter/generated_plugin_registrant.h                               | C++             |          5 |          5 |          6 |         16 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/flutter_window.cpp                                           | C++             |         49 |          7 |         16 |         72 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/flutter_window.h                                             | C++             |         20 |          5 |          9 |         34 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/main.cpp                                                     | C++             |         30 |          4 |         10 |         44 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/resource.h                                                   | C++             |          9 |          6 |          2 |         17 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/utils.cpp                                                    | C++             |         54 |          2 |         10 |         66 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/utils.h                                                      | C++             |          8 |          6 |          6 |         20 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/win32_window.cpp                                             | C++             |        210 |         24 |         55 |        289 |
+| /Users/bharaths/StudioProjects/SmartStock Pro/windows/runner/win32_window.h                                               | C++             |         48 |         31 |         24 |        103 |
+| Total                                                                                                                     |                 |      5,445 |        291 |        633 |      6,369 |
++---------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+

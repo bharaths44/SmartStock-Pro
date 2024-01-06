@@ -42,6 +42,7 @@ class LoginController extends GetxController {
         Get.offAllNamed('/customerhome/');
       }
     } on FirebaseAuthException catch (e) {
+      print(e.code);
       if (e.code == 'user-not-found') {
         Get.snackbar('Error', 'No user found for that email.',
             backgroundColor: Colors.red);
@@ -65,6 +66,9 @@ class LoginController extends GetxController {
             backgroundColor: Colors.red);
       } else if (e.code == 'credential-already-in-use') {
         Get.snackbar('Error', 'The account already exists.',
+            backgroundColor: Colors.red);
+      } else if (e.code == 'invalid-credential') {
+        Get.snackbar('Error', 'Invalid credentials.',
             backgroundColor: Colors.red);
       }
     } catch (e) {
