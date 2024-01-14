@@ -29,32 +29,29 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          fixedColor: const Color.fromRGBO(13, 41, 71, 1),
-          unselectedItemColor: Colors.grey,
-          currentIndex: controller.tabIndex.value,
-          items: const [
-            BottomNavigationBarItem(
-              label: "Home",
+        bottomNavigationBar: NavigationBar(
+          selectedIndex: controller.tabIndex.value,
+          onDestinationSelected: (index) {
+            controller.changeTabIndex(index);
+          },
+          destinations: const [
+            NavigationDestination(
               icon: Icon(Icons.home),
+              label: "Home",
             ),
-            BottomNavigationBarItem(
-              label: "Favorite",
+            NavigationDestination(
               icon: Icon(Icons.favorite),
+              label: "Favorite",
             ),
-            BottomNavigationBarItem(
-              label: "Cart",
+            NavigationDestination(
               icon: Icon(Icons.shopping_cart),
+              label: "Cart",
             ),
-            BottomNavigationBarItem(
-              label: "Profile",
+            NavigationDestination(
               icon: Icon(Icons.person),
+              label: "Profile",
             ),
           ],
-          onTap: (index) {
-            controller.changeTabIndex(index);
-            //Get.find<ProductController>().fetchProducts();
-          },
         ),
       );
     });

@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        useMaterial3: true
       ),
       routes: {
         '/adminproductDetailScreen/': (context) => AdminProductDetailScreen(),
